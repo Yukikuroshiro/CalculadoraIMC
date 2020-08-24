@@ -1,0 +1,55 @@
+#caixaPrincipal {
+    width: 400px;
+    height: 600px;
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px black;
+    border-radius: 30px;
+}
+
+label {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titulo {
+    border-bottom: solid 3px black;
+}
+
+#titulo h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+.input {
+    width: inherit;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.input input {
+    width: 250px;
+    height: 50px;
+}
+
+#calcular {
+    margin-left: 75px;
+    margin-right: 75px;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#resultado {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 300px;
+    height: 125px;
+    border: solid 3px black;
+    background-color: #fff;
+}
