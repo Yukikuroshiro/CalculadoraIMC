@@ -58,6 +58,7 @@ label {
     width: 350px;
     height: 125px;
     border: solid 2px black;
+    border-radius: 15px;
     background-color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
