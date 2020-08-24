@@ -1,7 +1,7 @@
 #caixaPrincipal {
     width: 400px;
-    height: 600px;
-    background-color: cadetblue;
+    height: 650px;
+    background-color: steelblue;
     margin-left: auto;
     margin-right: auto;
     border: solid 3px black;
@@ -11,6 +11,7 @@
 label {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 #titulo {
@@ -25,14 +26,15 @@ label {
 }
 
 .input {
-    width: inherit;
+    width: 350px;
     height: 100px;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .input input {
-    width: 250px;
+    width: 350px;
     height: 50px;
 }
 
@@ -43,13 +45,16 @@ label {
     height: 30px;
     margin-bottom: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: solid 1px black;
 }
 
 #resultado {
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 350px;
     height: 125px;
-    border: solid 3px black;
+    border: solid 2px black;
     background-color: #fff;
 }
